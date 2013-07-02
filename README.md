@@ -1,28 +1,5 @@
-== README
+* README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This README is for the Chap. 2 Demo_app that I am creating working with Michael Hartl's Ruby on Rails.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+It will be a basic microblogging site built with scaffolding.
