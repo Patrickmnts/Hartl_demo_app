@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0.beta1'
 
-gem 'sqlite3'
-
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -18,6 +16,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'twitter-bootstrap-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -28,6 +27,10 @@ gem 'jbuilder', '~> 1.0.1'
 # Needed for deployment to Heroku
 group :production do
   gem 'pg'
+end
+
+group :development do
+  gem 'sqlite3'
 end
 
 # To use ActiveModel has_secure_password
